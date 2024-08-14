@@ -79,7 +79,7 @@ You can also run the HF hosted gradio slider tool (huge shoutout to gradio and H
 git lfs install
 git clone https://huggingface.co/spaces/baulab/ConceptSliders
 cd ConceptSliders
-pip install requirements.txt
+pip install -r requirements.txt
 python app.py
 ```
 For more inference time gradio demos please refer to Cameduru's repo [here](https://github.com/camenduru/sliders-colab)
